@@ -1,0 +1,200 @@
+
+ul {
+    list-style: none;
+    margin: 1;
+    padding: 0px;
+    display: flex;
+    background: blue;
+  }
+  
+li {
+    background: rgb(226, 215, 199);
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+
+nav a {
+    text-decoration: none; 
+    color: black;
+    font-size: 1.2em;
+    font-family: "arial", sans-serif;  
+  }
+
+a:active{
+    color: blue; 
+}
+a:hover{
+    color: rgb(127, 187, 243);
+}
+a:visited{
+    color: lightslategray;
+}
+a:link {
+    color: lightsteelblue; 
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    padding: 50px;
+  }
+  
+.vl {
+    border-left: 0.5px solid lightgrey;
+    height: 600px;
+    float: left; 
+    padding: 20px;
+    
+  }
+
+.picture{
+    float: left;
+    padding-left: 50px;
+    padding-right: 0px;
+  }
+
+.about {
+    text-align-last: left;
+    padding-top: 100px;
+    padding-right: 400px;
+    font-family:"arial", sans-serif;
+  }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color:  #ccc;
+    text-align: center;
+    font-size: small;
+
+  }
+
+
+.caption {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    font-family: "arial", sans-serif;
+}
+
+.title {
+    font-size: 20px;
+
+}
+.email{
+    color:  rgb(113, 120, 227); 
+}
+
+.dates{
+  text-align: right; 
+  padding-left: 50px;
+    
+}
+
+.education{
+    text-align-last: left;
+    padding-top: 100px;
+    padding-right: 400px;
+    font-family:"arial", sans-serif;
+}
+
+.creds{
+    padding: 100px; 
+
+}
+
+.datesedu{
+    text-align: right; 
+    padding-left: 50px;
+}
+
+.skills{
+    text-align-last: left;
+    padding-top: 100px;
+    padding-right: 400px;
+    font-family:"arial", sans-serif;
+
+}
+
+.progskills{
+    text-align: right; 
+    padding-left: 300px;
+}
+
+.interests{
+    text-align-last: left;
+    padding-top: 100px;
+    padding-right: 400px;
+    font-family: "arial", sans-serif;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: whitesmoke;
+  }
+  .main {
+    display: contents;
+  }
+  .left{
+    display: block;
+    border:none;
+    width: 100vw;
+    padding: 0;
+    content: center;
+  }
+  img {
+  display: relative;
+  border-radius: 50%;
+  }
+  .picture{
+    align-content: center;
+    text-align: center;
+    padding: 0;
+    width: 100vw;
+
+  }
+  .caption {
+
+    font-size: 30px;
+    text-align: center;
+    font-family: "arial", sans-serif;
+  }
+  .email{
+    color:  rgb(140, 130, 231); 
+  }  
+  .title {
+    font-size: 20px;
+  }
+  .vl {
+    display: none;
+  }
+  .right{
+    display: block;
+    text-align: left;
+    align-content: center;
+    border: 0px;
+    padding: 0px;
+  }
+  .about {
+    padding:0px;
+    font-family:"arial", sans-serif;
+  }
+
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color:  #ccc;
+    text-align: center;
+    font-size: small;
+  }
+}
